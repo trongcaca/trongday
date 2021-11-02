@@ -1,0 +1,502 @@
+@charset "utf-8";
+/* CSS Document */
+@import  url("https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap");
+
+
+body
+{
+	font-family:'Roboto Condensed', sans-serif;
+}
+ 
+
+header
+{
+	position: absolute;
+	width: 100;
+	position: fixed;
+	z-index: 2000;
+}
+section
+{
+	padding: 75px 0;
+}
+.banner2
+{
+	padding-bottom: 50px;
+}
+
+.banner2 img
+{
+	width: 100%;
+	height:600px
+}
+.items-digital2
+{
+/*	padding: 100px 20px 2px   ;*/
+/*
+	  box-shadow:
+  0px 1.8px 2.2px rgba(0, 0, 0, 0.033),
+  0px 3.4px 5.3px rgba(0, 0, 0, 0.051),
+  0px 4.9px 10px rgba(0, 0, 0, 0.066),
+  0px 6.3px 17.9px rgba(0, 0, 0, 0.082),
+  0px 8.5px 33.4px rgba(0, 0, 0, 0.103),
+  0px 16px 80px rgba(0, 0, 0, 0.15);
+	border-radius: 20px;
+*/
+	width: 95%;
+}
+.img-digital2
+{
+	overflow: hidden;
+	height: 250px;
+/*	border-radius: 20px;*/
+	
+}
+.benner-text3 p 
+{
+ color: aliceblue
+}
+.benner-text3 h1
+{
+	color: aliceblue
+}
+.banner3 img
+{
+	width: 100%;
+	height: 600px;
+}
+
+/*trongnuoc*/
+
+.logo a
+{
+	font-size: 1.5rem;
+	
+	color: #ef7b45;
+	text-decoration: none;
+	font-weight: bold;
+	padding: 0px;
+	box-sizing: border-box;
+}
+.banner video {
+	width: 100%;
+	height: 100vh;
+	object-fit: cover;
+		
+}
+
+.menu
+{  
+	display: flex;
+}
+.menu a
+{
+	color: black;
+	text-decoration: none;
+	margin: 0 1.5rem;
+	padding: 5px 0 0 20px;
+	font-weight: bold
+	
+
+}
+.phone 
+{
+	text-decoration: none;
+	margin-right: 5px;
+	color: #ef7b45;
+	font-weight: bold
+}
+
+.btn-outline
+{
+	text-decoration: none;
+	color: black;
+}
+.banner
+{
+	height: 100vh;
+}
+.benner-text
+{
+	font-size: 18pt;
+	
+}
+.benner-text p
+{
+	font-size: 18pt;
+	color:#BD8474;
+	font-weight: bold;
+}
+.benner-text h1
+{
+	font-size: 3.75rem;
+	color: #6F5E5E;
+	
+}
+.items-brand img
+{
+	width: 79.5%;
+}
+.brand
+{
+	padding: 75px 110px  ;
+}
+.services
+{
+	display: flex
+}
+.items-brand
+{
+	width: 100px;
+	height: 100px;
+	border-radius: 50%;
+    display: flex;
+	justify-content: center;
+	align-items: center;
+	background: white;
+	box-shadow:
+  0px 1.8px 2.2px rgba(0, 0, 0, 0.033),
+  0px 3.4px 5.3px rgba(0, 0, 0, 0.051),
+  0px 4.9px 10px rgba(0, 0, 0, 0.066),
+  0px 6.3px 17.9px rgba(0, 0, 0, 0.082),
+  0px 8.5px 33.4px rgba(0, 0, 0, 0.103),
+  0px 16px 80px rgba(0, 0, 0, 0.15)
+;
+	
+
+}
+.title-sv
+{
+	font-size: 24pt;
+}
+.col-6 p1
+{
+	font-size: 12pt;
+	word-spacing: 1px;
+}
+.card
+{
+	padding: 40px 32px ;
+	margin: 0 20px;
+	border-radius: 20px;
+    box-shadow:
+  0px 1.8px 2.2px rgba(0, 0, 0, 0.033),
+  0px 3.4px 5.3px rgba(0, 0, 0, 0.051),
+  0px 4.9px 10px rgba(0, 0, 0, 0.066),
+  0px 6.3px 17.9px rgba(0, 0, 0, 0.082),
+  0px 8.5px 33.4px rgba(0, 0, 0, 0.103),
+  0px 16px 80px rgba(0, 0, 0, 0.15)
+;
+	width: 300px
+
+}
+.icon
+{
+	background: #2a9d8f;
+	width:32px;
+	height: 32px;
+	border-radius: 5px;
+	color: white;
+	
+	
+}
+.icon ion-icon
+{
+	filter: drop-shadow(2px 2px 2px black)
+}
+.card h2
+{
+	margin: 48px 0 32px ;
+	color: #C94C0A
+	
+}
+.col-6 h1
+{
+	padding: 0 0 30px 0;
+
+}
+.about-img img
+{
+	width: 500px;
+	height: 500px;
+	background: #81C487;
+	border-radius: 50%
+}
+.col-5 h3
+{
+	
+	color:#DD5021
+}
+.about-content p3
+{
+	word-spacing: 1px;
+	letter-spacing:0.25px ;
+	box-sizing: border-box;
+	
+}
+.about-content
+{
+	padding: 60px 0px 0 0px;
+}
+.about-img
+{
+	padding: 0px 20px;
+}
+.container1
+{
+	padding: 20px 60px;
+	
+	
+}
+.col-12 h3
+ { color:#C94C0A;
+   font-size: 28pt;
+}
+.items-digital
+{
+	padding: 32px 32px 60px ;
+	  box-shadow:
+  0px 1.8px 2.2px rgba(0, 0, 0, 0.033),
+  0px 3.4px 5.3px rgba(0, 0, 0, 0.051),
+  0px 4.9px 10px rgba(0, 0, 0, 0.066),
+  0px 6.3px 17.9px rgba(0, 0, 0, 0.082),
+  0px 8.5px 33.4px rgba(0, 0, 0, 0.103),
+  0px 16px 80px rgba(0, 0, 0, 0.15);
+	border-radius: 20px;
+	width: 510px;
+}
+.img-digital
+{
+	overflow: hidden;
+	height: 300px;
+	border-radius: 20px;
+	
+}
+
+
+.review-logo
+{
+	color: #ef7b45;
+	
+}
+.rating 
+{
+	color:#F5AB00;
+	padding: 10px 40px
+}
+.col-3 img
+{
+	border-radius: 100px;
+	padding: 10px 10px;
+}
+.cm-kichthuoc
+{
+	width: 520px;
+}
+.padding-cmt
+{
+	padding: 0 6px 0 0 ;
+}
+.margin-cmt
+{
+	margin: 10px 100px;
+}
+.logo
+{
+	color: #ef7b45;
+}
+.maucamdam
+{
+	color: #C94C0A;
+}
+.logo a
+{padding: 30px}
+footer 
+{
+	padding: 150px 0;
+}
+.padding-ft
+{
+  padding: 20px 25px;
+}
+.page-pad
+{
+	padding: 20px 0 ;
+}
+.list-menu
+{
+	display: flex;
+	flex-direction: column
+}
+.list-menu a
+{
+	color: black;
+	text-decoration: none;
+	margin-bottom: 16px;
+
+}
+.nav-mobile
+{
+	display: none;
+	cursor: pointer;
+}
+.close
+{
+	display: none;
+}
+
+@media screen and (max-width:415px){
+
+.menu
+	{
+/*		display: none;*/
+/*		display: block;*/
+		width: 100%;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		position: fixed;
+		height: 0;
+		background:rgba(0,0,0,0.85);
+/*		width: 100%;*/
+		left: 0;
+		top: 0;
+		overflow: hidden;
+		transition: all 1s
+		
+		
+		
+	}
+	.benner-text h1
+{
+	font-size: 1rem !important;
+	color: #6F5E5E;
+	margin-left: 10px!important
+
+	
+}
+	.benner-text p
+	{
+		margin-left: 10px!important;
+		font-size: 0.5rem!important
+		
+	}
+	.banner-btn a
+	{
+		display: block !important;
+		width: 120px
+	}
+	.menu a
+	{color: white;
+	 margin:24px 0;
+	 font-size: 32px !important
+	}
+	.close
+	{
+		position: absolute;
+		z-index: 1999;
+		color: white;
+		font-size: 32px;
+		top: 50px;
+		right: 50px;
+		cursor: pointer;
+		display: block;
+		
+	}
+/*
+	.container
+	{
+		margin: 30px 0px 30px 0px !important;
+	}
+*/
+	.text-center
+{
+	text-align: center;
+}
+	.col-sm-12
+{
+	width: 100% !important;
+}
+	.col-sm-6
+{
+	width: 50%!important ;
+}
+	.display-sm-block
+	{
+		display: block;
+	}
+	.display-sm-none
+	{
+		display: none;
+	}
+	.text-sm-center
+	{text-align: center!important;}
+	.text-sm-right
+	{
+	  text-align: right!important;
+	}
+	.nav-mobile
+	{
+		display: block!important;
+		cursor: pointer!important
+	}
+	.p-16px
+	{
+		padding: 16px
+	}
+	.container
+	{margin: 10px}
+/*
+	.col-sm-4
+	{
+		width: 30%;
+		height: 300px;
+			
+	}
+*/
+	.about-img img
+	{
+		width: 230px;
+		height: 230px;
+	}
+	.about-content p3
+	{
+		font-size: 1rem ;
+	}
+	
+	
+	.about-content
+	{
+		width: 100%;
+		height: 500px;
+		margin: 10px;
+		box-sizing: border-box
+			
+	}
+	.items-digital
+	{
+		width: 90%;
+		height: 400px;
+		padding: 10px 10px 50px 10px!important
+		
+			
+	}
+	.ct-digital h4
+	{
+		font-size: 18px!important;
+	}
+	.auu
+	{
+		padding-left: 30px;
+	}
+	.ruu
+	{
+	  padding: 20px 0 20px 0px !important;
+	}
+	.card
+	{
+		width: 67%;
+		
+	}
+	
+}
